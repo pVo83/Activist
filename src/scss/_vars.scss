@@ -1,0 +1,60 @@
+:root {
+  --ff-primary: "NunitoSans", sans-serif;
+
+  /* ------------------- */
+  /* content-width       */
+  /* ------------------- */
+  --content-width: 1320px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  /* ------------------- */
+  /* color theme         */
+  /* ------------------- */
+  --neutral-100: #fff;
+  --neutral-500: #e6e6e6;
+  --neutral-600: #f7f7f7;
+  --neutral-700: #8c8c8c;
+  --neutral-800: #212121;
+  --neutral-900: #000;
+  --primary-color: #5291f0;
+  --focus-color: #5291f0;
+  --active-color: #3b70bf;
+
+  /* ------------------- */
+  /* font-size           */
+  /* ------------------- */
+  --fs-12: 0.75rem; // 12px;
+  --fs-14: 0.875rem; // 14px;
+  --fs-16: 1rem; // 16px;
+  --fs-18: 1.125rem; // 18px;
+  --fs-20: 1.25rem; // 20px;
+  --fs-22: 1.375rem; // 22px;
+  --fs-24: 1.5rem; // 24px;
+  --fs-28: 1.75rem; // 28px;
+  --fs-30: 1.875rem; // 30px;
+  --fs-50: 3.125rem; // 50px;
+  --fs-56: 3.5rem; // 56px;
+
+  /* ------------------- */
+  /* transition          */
+  /* ------------------- */
+  --trs-35: 0.35s ease-in-out;
+  --trs-55: 0.55s ease-in-out;
+
+  /* ------------------- */
+  /* margin              */
+  /* ------------------- */
+  --mrg-50: 3.125rem; // 50px;
+
+  /* ------------------- */
+  /* padding              */
+  /* ------------------- */
+  --pdg-80: 5rem 0; // 80px;
+
+  /* ------------------- */
+  /* gap                 */
+  /* ------------------- */
+  --gap-20: 1.25rem; // 20px;
+  --gap-24: 1.5rem; // 24px;
+}

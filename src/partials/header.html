@@ -1,0 +1,81 @@
+<header class="header">
+  <div class="header__top">
+    <div class="container header__top-container">
+      <address class="header__contact">
+        <a class="header__icon-link header__icon-link--phone" href="tel:+79220229482">
+          <svg class="phone" width="20" height="20" aria-hidden="true">
+            <use xlink:href="img/svg/sprite.svg#phone"></use>
+          </svg>
+          +7 (922) 022-94-82
+        </a>
+        <a class="header__icon-link header__icon-link--mail" href="mailto:janis62@yahoo.com">
+          <svg class="mail" width="20" height="20" aria-hidden="true">
+            <use xlink:href="img/svg/sprite.svg#mail"></use>
+          </svg>
+          janis62@yahoo.com
+        </a>
+      </address>
+      <button class="btn btn--text header__btn" type="button" data-modal-open="callback-modal">Заказать звонок</button>
+    </div>
+  </div>
+  <div class="header__main">
+    <div class="container header__main-container">
+      <div class="header__logo">
+        <a class="logo" href="./" aria-label="Правозащитник, на главную">
+          <span class="logo__title">Правозащитник</span>
+          <span class="logo__subtitle">Юридическая компания</span>
+        </a>
+      </div>
+      <nav id="nav" class="nav" aria-label="Основная навигация">
+        <ul id="myTopnav" class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#services" data-scroll>Услуги</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about" data-scroll>О компании</a></li>
+          <li class="nav__item"><a class="nav__link" href="#team" data-scroll>Наши юристы</a></li>
+          <li class="nav__item"><a class="nav__link" href="#reviews" data-scroll>Отзывы</a></li>
+          <li class="nav__item"><a class="nav__link" href="#blog" data-scroll>Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="#footer" data-scroll>Контакты</a></li>
+        </ul>
+      </nav>
+      <button id="burger" class="burger" type="button" aria-label="Открыть меню" aria-controls="nav"
+        aria-expanded="false">
+        <span class="burger__line"></span>
+        <span class="burger__line burger__line--center"></span>
+        <span class="burger__line"></span>
+      </button>
+      <div id="cover" class="cover"></div>
+    </div>
+  </div>
+  <button class="scroll-to-top" type="button" aria-label="Вернуться к началу страницы">
+    <svg class="circle-fill" width="50" height="50" aria-hidden="true">
+      <use xlink:href="img/svg/sprite.svg#arrow-up-circle-fill"></use>
+    </svg>
+  </button>
+
+  <div id="callback-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="callback-modal-title"
+    aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__content">
+      <button class="modal__close" type="button" aria-label="Закрыть окно" data-modal-close>
+        <span class="modal__close-line"></span>
+        <span class="modal__close-line modal__close-line--rotate"></span>
+      </button>
+      <span class="modal__eyebrow">Обратная связь</span>
+      <h2 id="callback-modal-title" class="modal__title">Заказать звонок</h2>
+      <p class="modal__desc">Оставьте контакты, и юрист свяжется с вами, чтобы уточнить вопрос и предложить удобное
+        время консультации.</p>
+      <form class="modal__form" method="post">
+        <label class="modal__field">
+          <span class="modal__label">Ваше имя</span>
+          <input class="modal__input" type="text" name="name" placeholder="Иван Иванов" autocomplete="name" required>
+        </label>
+        <label class="modal__field">
+          <span class="modal__label">Телефон</span>
+          <input class="modal__input" type="tel" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel"
+            required>
+        </label>
+        <button class="btn modal__btn" type="button">Отправить заявку</button>
+      </form>
+      <p class="modal__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+    </div>
+  </div>
+</header>
