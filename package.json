@@ -11,9 +11,8 @@
     "backend": "gulp backend",
     "zip": "gulp zip",
     "lint:scss": "stylelint \"src/scss/**/*.scss\"",
-    "lint:js": "gulp backend",
     "lint:html": "npm run build && npm run html",
-    "lint": "npm run lint:scss && npm run lint:js && npm run lint:html"
+    "lint": "npm run lint:scss && npm run lint:html"
   },
   "author": "Vlad",
   "license": "ISC",

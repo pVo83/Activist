@@ -2,13 +2,17 @@
 
 Адаптивный лендинг юридической компании. Pet-project для портфолио.
 
+## Demo
+
+https://pvo83.github.io/Activist/
+
 ## Стек
 
-HTML · SCSS (BEM) · Gulp · Webpack · Swiper · Smooth Scroll
+HTML · SCSS (BEM) · JavaScript · Gulp · Webpack · Swiper · Smooth Scroll
 
 ## Реализовано
 
-- Адаптивная верстка основных секций лендинга
+- Адаптивная вёрстка основных секций лендинга
 - Бургер-меню с `aria-expanded` и закрытием по клику на ссылку или overlay
 - Слайдеры hero и отзывов с кнопками навигации
 - Карточки команды с доступным состоянием раскрытия
@@ -26,9 +30,8 @@ npm run build  # production-сборка в папку app/
 ## Проверки
 
 ```bash
-npm run lint
+npm run lint        # Stylelint (SCSS) + HTMLHint после build
 npm run lint:scss
-npm run lint:js
 npm run lint:html
 ```
 
@@ -40,6 +43,10 @@ src/
 ├── scss/         # Стили (BEM)
 ├── js/           # Скрипты
 ├── img/          # Изображения и SVG-иконки
-└── resources/    # Шрифты, favicon, данные
-app/              # Сборка (не коммитится, генерируется при build)
+└── resources/    # Шрифты, favicon, данные, mail.php
+app/              # Сборка (не в git, появляется после build)
 ```
+
+## Деплой
+
+После `git push` в `main` проект собирается и публикуется на GitHub Pages через GitHub Actions.
