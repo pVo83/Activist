@@ -1,5 +1,0 @@
-# PHPMailer — сторонняя библиотека, не учитывать в языке репозитория
-src/resources/phpmailer/** linguist-vendored
-
-# Опциональный обработчик формы, не основной стек проекта
-src/resources/mail.php linguist-documentation
